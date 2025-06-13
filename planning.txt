@@ -1,0 +1,47 @@
+NOTE: Add a link to Trello, another planning tool, or replace this file with your own planning file.
+
+
+A website dedicated to my mom's accounting business, Express Bookkeeping & Tax Inc. (EBTI)
+
+Sketches:
+
+    1. Small device
+        - 1 column format
+        - menu will be shown vertically (may change to hamburger depending on design choice later on) top left corner
+        - logo might want to put in middle
+        - some header underneath with text/tagline
+        - content is in a column form, services, etc...
+        - contact form under!
+            - submit button
+        - add a footer of your choice
+
+    2. Medium device
+        - 2x2 grid in the middle of the page
+            - content (services) listed in this grid
+
+        - logo in top left corner
+        - menu items aligned on right hand side of screen, center aligned with logo
+        - include some text and header above image (name, slogan, tagline, etc...)
+        - add transparent image under header
+        - include a contact form under the 2x2 grid
+            - include submit button for form
+        - create a footer with your own content
+
+    3. Large device
+        - centered with a fixed size of 790px
+        - mostly fluid design
+        - remaining space on sides should be a plain color choice (match the background of logo)
+        - top left corner for logo
+        - menu center aligned with logo on right hand side of screen
+        - header/text for name, slogan, or tagline
+        - transparent image under header
+        - 2x2 grid for content/services
+        - include a contact form under grid
+            - include submit button!
+        - create a footer with content of your choice
+
+Other tasks/notes:
+    - you can change the size and spacing of the design as you see fit.
+    - connect to Netlify
+    - make sure to look out for accessibility aspects
+

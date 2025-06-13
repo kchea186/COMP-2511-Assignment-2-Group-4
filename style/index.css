@@ -1,0 +1,51 @@
+/* 
+    Colour palette referenced: https://www.color-hex.com/color-palette/1046976
+    
+    Some information was obtained from lecture content as well
+    pseudo-elemts referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+    pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
+*/
+
+
+.short-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+}
+
+/* image scaling and responsiveness referenced from: https://www.w3schools.com/howto/howto_css_image_responsive.asp */
+.map-img {
+    max-width: 100%;
+    height: auto
+}
+
+/*
+.emphasize-letter::first-letter {
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.abt-services {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 250px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #293d6b;
+}
+
+
+.location {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 250px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #293d6b;
+}
+
+*/

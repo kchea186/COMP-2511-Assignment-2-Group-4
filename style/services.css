@@ -1,0 +1,74 @@
+/* 
+    Colour palette referenced: https://www.color-hex.com/color-palette/1046976
+    
+    Some information was obtained from lecture content as well
+    pseudo-elemts referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+    pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
+
+    table styling referenced: https://www.w3schools.com/html/html_table_borders.asp
+                            : https://www.w3schools.com/html/html_table_styling.asp
+
+    table sizing referenced: https://www.w3schools.com/html/html_table_sizes.asp
+
+*/
+
+.table-container {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 25px 25px;
+    /*
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #293d6b;
+    */
+}
+
+table {
+    width: 40%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #58257d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: 	#cfe2f3;
+    height: 50px;
+    font-size: 17px;
+    border-style: solid;
+    border-color: #58257d;
+    border-width: 4px;
+}
+
+tr {
+    height: 30px;
+}
+
+tbody {
+    background-color: 	#fffdf7;
+}
+
+tr:nth-child(even) {
+    background-color: 	#cfe2f3;
+}
+
+th, td {
+    padding: 10px;
+    border-style: solid;
+    border-color: #58257d;
+    border-width: 2px;
+}
+
+caption {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.location {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 25px 25px;
+    border-radius: 20px;
+}

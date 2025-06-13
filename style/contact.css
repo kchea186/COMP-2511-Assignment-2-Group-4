@@ -1,0 +1,72 @@
+/* 
+    Colour palette referenced: https://www.color-hex.com/color-palette/1046976
+                             : https://www.color-hex.com/color-palette/1061284
+    
+    Some information was obtained from lecture content as well
+    pseudo-elemts referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+    pseudo-classes referenced: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes 
+
+    form & box referenced from in class notes and: https://www.w3schools.com/css/css_form.asp
+
+    */
+
+/*
+.form {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #293d6b;
+}
+*/
+
+.form-format {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.form-details {
+    background-color: #ffffff;
+    padding: 25px 25px 25px;
+    margin: 10px 25px 25px;
+    border-radius: 20px;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #767bb2;
+    color: #ffffff;
+}
+input[type=submit]:hover {
+    background-color: 	#8cabc2;
+}
+
+input[type=reset] {
+    width: 25%;
+    padding: 15px 20px;
+    margin: 10px 50px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: 	#ebebeb;
+}
+input[type=reset]:hover {
+    background-color: 	#8cabc2;
+}

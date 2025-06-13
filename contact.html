@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Contact Us - EBTI </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Express Bookkeeping & Tax Inc., EBTI, contact, contact us, phone, email">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/index.css">
+        <link rel="stylesheet" href="style/services.css">
+        <link rel="stylesheet" href="style/contact.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo-place">
+                <a href="index.html">
+                    <img src="images/EBTILogoIcon2.png" alt="EBTI Logo" class="logo-img" width="150" height="130">
+                </a>
+            </div>
+
+            <!-- <h1 class="ebti"> Express Bookkeeping & Tax Inc. </h1> -->
+            
+            <!-- Navigation includes a list of services provided, about page, and contacts page -->
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li class="menu disabled"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="square-box">
+                <div class="center-text">
+                    <h1> Contact Us </h1>
+                    <h3><em>We provide free consultation.</em></h3>
+                </div>
+            </section>
+
+            <section class="empty-box">
+                <div class="form-format">
+                    <h3> Fill out the form below to get in touch with us</h3>
+                    <div class="form-details">
+                        <!-- action referenced: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail -->
+                        <form method="post" action="mailto:kchea186@mtroyal.ca">
+                            <label class="required"> First Name *
+                                <input name="first_name" type="text" size="25" maxlength="40" placeholder="First Name" required>
+                            </label>
+                            <br>
+                            <br>
+                            <label> Preferred Name
+                                <input name="preferred_name" type="text" size="25" maxlength="40" placeholder="Preferred Name">
+                            </label>
+                            <br>
+                            <br>
+                            <label class="required"> Last Name *
+                                <input name="last_name" type="text" size="25" maxlength="40" placeholder="Last Name" required>
+                            </label>
+                            <br>
+                            <br>
+                            <!-- 
+                                pattern referencd: https://www.w3schools.com/tags/att_input_pattern.asp 
+                                                : and in class notes
+                                for both email and phone
+                            -->
+                            <label class="required"> Email *
+                                <input name="email" type="email" placeholder="abc@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,5}$" required>
+                            </label>
+                            <br>
+                            <br>
+                            <label> Phone
+                                <input name="phone" type="tel" placeholder="123-456-7890" maxlength="12" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}">
+                            </label>
+                            <br>
+                            <br>
+                            <label class="required"> Subject *
+                                <input name="subject" type="text" size="25" maxlength="250" placeholder="Subject of Inquiry" required>
+                            </label>
+                            <br>
+                            <br>
+                            <p class="required"> Were you referred by someone? *</p>
+                                <label class="referral"> Yes <input name="referral" type="radio" value="Yes" checked required></label>
+                                <label class="referral"> No <input name="referral" type="radio" value="No" required></label>
+                            <br>
+                            <br>
+                            <p> If so, by whom? </p>
+                                <input name="referee" type="text" size="25" maxlength="100" placeholder="Name or Company name">
+                            <br>
+                            <br>
+                            <p> How did you find us (Check all that apply)?</p>
+                                <label> Referral <input name="find" type="checkbox" value="brochure"></label>
+                                <label> Brochure <input name="find" type="checkbox" value="brochure"></label>
+                                <label> Word of mouth <input name="find" type="checkbox" value="brochure"></label>
+                                <label> Advertisement <input name="find" type="checkbox" value="brochure"></label>
+                            <br>
+                            <br>
+                            <label class="date"> Date
+                                <input name="date" type="date">
+                            </label>
+                            <br>
+                            <br>
+                            <label class="required"> Message *
+                                <textarea name="comment" rows="4" cols="50" maxlength="300" placeholder="Enter any questions or comments here" required></textarea>
+                            </label>
+                            <br>
+                            <br>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Clear">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <p><b>Have any additional questions or inquiries?</b> Check out the short inquiry forms at the bottom of the <a href="index.html"> Homepage</a> and <a href="services.html"> Services</a> page.</p>
+            </div>
+        </main>
+
+        <div>
+            <ul class="top">
+                <li><a href="#"> Top </a></li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Kini Chea. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
