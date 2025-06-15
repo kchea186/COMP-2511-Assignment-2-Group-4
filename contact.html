@@ -41,8 +41,10 @@
                 <div class="form-format">
                     <p class="big-text"><b> Fill out the form below to get in touch with us </b></p>
                     <div class="form-details">
-                        <!-- action referenced: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail -->
-                        <!-- fieldset tag referenced: https://www.w3schools.com/tags/tag_fieldset.asp -->
+                        <!-- action referenced: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail
+                             fieldset tag referenced: https://www.w3schools.com/tags/tag_fieldset.asp 
+                             legend tag referenced: https://www.w3schools.com/tags/tag_legend.ASP
+                        -->
                         <form method="post" action="mailto:kchea186@mtroyal.ca">
                             <label class="required"> First Name *
                                 <input name="first_name" type="text" size="25" maxlength="40" placeholder="First Name" required>
@@ -80,6 +82,7 @@
                             <br>
                             <br>
                             <fieldset>
+                                <legend> Referrals </legend>
                                 <p class="required"> Were you referred by someone? *</p>
                                 <label class="referral"> Yes <input name="referral" type="radio" value="Yes" checked required></label>
                                 <label class="referral"> No <input name="referral" type="radio" value="No" required></label>
@@ -92,6 +95,7 @@
                             <br>
                             <br>
                             <fieldset>
+                                <legend> Hear About Us </legend>
                                 <p> How did you find us (Check all that apply)?</p>
                                 <label> Referral <input name="find" type="checkbox" value="brochure"></label>
                                 <label> Brochure <input name="find" type="checkbox" value="brochure"></label>
