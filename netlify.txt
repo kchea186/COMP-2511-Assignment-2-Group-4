@@ -1,1 +1,4 @@
-https://group-4-assignment-2.netlify.app/
+There are 2 repos here in case the first does not work!
+
+personal repo: https://group-4-assignment-2.netlify.app/
+mru-classroom repo: https://assignment-2-group-4.netlify.app/
